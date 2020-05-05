@@ -10,6 +10,7 @@ export default function Addcar(props) {
   const [open, setOpen] = useState(false);
   const [car, setCar] = useState({brand: '', model: '', color: '', year: '', fuel: '', price: ''});
 
+  //New comment
   const handleClickOpen = () => {
     setOpen(true);
   }
